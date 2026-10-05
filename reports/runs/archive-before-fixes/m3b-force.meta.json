@@ -1,0 +1,40 @@
+{
+  "name": "m3b-force",
+  "options": {
+    "agent": "llm",
+    "backend": "mistral",
+    "model": "ministral-3b-2512",
+    "force_action": true,
+    "retriever": "dense"
+  },
+  "agent_config": {
+    "agent": "llm",
+    "model": "ministral-3b-2512",
+    "guardrails": true,
+    "exposure": "all",
+    "retriever": "dense",
+    "prompt": "base",
+    "force_action": true
+  },
+  "sessions": [
+    {
+      "started_utc": "2026-09-24T17:43:04+00:00",
+      "code_sha256_16": "4398fc533c617f35",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "complete",
+      "finished_utc": "2026-09-24T17:44:29+00:00",
+      "model": {
+        "provider": "mistral",
+        "model_requested": "ministral-3b-2512",
+        "models_served": [
+          "ministral-3b-2512"
+        ],
+        "temperature": 0.0,
+        "extra_params": {},
+        "api_calls": 156
+      },
+      "simulator": null
+    }
+  ]
+}

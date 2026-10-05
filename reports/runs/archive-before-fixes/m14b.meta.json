@@ -1,0 +1,39 @@
+{
+  "name": "m14b",
+  "options": {
+    "agent": "llm",
+    "backend": "mistral",
+    "model": "ministral-14b-2512",
+    "retriever": "dense"
+  },
+  "agent_config": {
+    "agent": "llm",
+    "model": "ministral-14b-2512",
+    "guardrails": true,
+    "exposure": "all",
+    "retriever": "dense",
+    "prompt": "base",
+    "force_action": false
+  },
+  "sessions": [
+    {
+      "started_utc": "2026-09-24T17:37:26+00:00",
+      "code_sha256_16": "4398fc533c617f35",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "complete",
+      "finished_utc": "2026-09-24T17:41:17+00:00",
+      "model": {
+        "provider": "mistral",
+        "model_requested": "ministral-14b-2512",
+        "models_served": [
+          "ministral-14b-2512"
+        ],
+        "temperature": 0.0,
+        "extra_params": {},
+        "api_calls": 135
+      },
+      "simulator": null
+    }
+  ]
+}

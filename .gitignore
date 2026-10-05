@@ -1,0 +1,29 @@
+# Secrets
+keys.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Generated
+data/*.db
+models/*
+!models/.gitkeep
+reports/traces/
+reports/logs/
+reports/runs/*.partial*
+
+# Local notes
+*.local.md
+
+.DS_Store
+.idea/
+.vscode/

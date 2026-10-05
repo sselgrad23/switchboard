@@ -1,0 +1,65 @@
+{
+  "name": "groq-gptoss120b",
+  "options": {
+    "agent": "llm",
+    "backend": "groq",
+    "model": "openai/gpt-oss-120b",
+    "extra": {
+      "reasoning_effort": "low"
+    },
+    "retriever": "dense"
+  },
+  "agent_config": {
+    "agent": "llm",
+    "model": "openai/gpt-oss-120b",
+    "guardrails": true,
+    "exposure": "all",
+    "retriever": "dense",
+    "prompt": "base",
+    "force_action": false
+  },
+  "sessions": [
+    {
+      "started_utc": "2026-09-24T18:13:30+00:00",
+      "code_sha256_16": "1574349373663b7a",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "stopped_quota",
+      "finished_utc": "2026-09-24T18:50:58+00:00",
+      "model": {
+        "provider": "groq",
+        "model_requested": "openai/gpt-oss-120b",
+        "models_served": [
+          "openai/gpt-oss-120b"
+        ],
+        "temperature": 0.0,
+        "extra_params": {
+          "reasoning_effort": "low"
+        },
+        "api_calls": 157
+      },
+      "simulator": null
+    },
+    {
+      "started_utc": "2026-09-25T03:32:15+00:00",
+      "code_sha256_16": "4ba4057fdc673128",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "complete",
+      "finished_utc": "2026-09-25T03:34:17+00:00",
+      "model": {
+        "provider": "groq",
+        "model_requested": "openai/gpt-oss-120b",
+        "models_served": [
+          "openai/gpt-oss-120b"
+        ],
+        "temperature": 0.0,
+        "extra_params": {
+          "reasoning_effort": "low"
+        },
+        "api_calls": 10
+      },
+      "simulator": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "qwen3b-hybrid",
+  "options": {
+    "agent": "hybrid",
+    "retriever": "dense"
+  },
+  "agent_config": {
+    "agent": "hybrid",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "guardrails": true,
+    "exposure": "all",
+    "retriever": "dense"
+  },
+  "sessions": [
+    {
+      "started_utc": "2026-09-24T18:09:55+00:00",
+      "code_sha256_16": "eb9598bb91345938",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "complete",
+      "finished_utc": "2026-09-24T18:13:42+00:00",
+      "model": {
+        "provider": "local",
+        "model_requested": "Qwen/Qwen2.5-3B-Instruct",
+        "load_4bit": false,
+        "dtype": "float16",
+        "hf_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "torch": "2.5.1+cu121",
+        "transformers": "4.54.1",
+        "gpu": "NVIDIA GeForce RTX 2080 Super with Max-Q Design"
+      },
+      "simulator": null
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "groq-qwen27b",
+  "options": {
+    "agent": "llm",
+    "backend": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "retriever": "dense"
+  },
+  "agent_config": {
+    "agent": "llm",
+    "model": "qwen/qwen3.8-27b",
+    "guardrails": true,
+    "exposure": "all",
+    "retriever": "dense",
+    "prompt": "base",
+    "force_action": false
+  },
+  "sessions": [
+    {
+      "started_utc": "2026-09-24T17:33:46+00:00",
+      "code_sha256_16": "a48cb00b9a56c5ab",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "stopped_quota",
+      "finished_utc": "2026-09-24T18:13:16+00:00",
+      "model": {
+        "provider": "groq",
+        "model_requested": "qwen/qwen3.8-27b",
+        "models_served": [
+          "qwen/qwen3.8-27b"
+        ],
+        "temperature": 0.0,
+        "extra_params": {},
+        "api_calls": 99
+      },
+      "simulator": null
+    },
+    {
+      "started_utc": "2026-09-25T03:14:56+00:00",
+      "code_sha256_16": "90eef2cb9f0a8fef",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "stopped_quota",
+      "finished_utc": "2026-09-25T03:32:03+00:00",
+      "model": {
+        "provider": "groq",
+        "model_requested": "qwen/qwen3.8-27b",
+        "models_served": [
+          "qwen/qwen3.8-27b"
+        ],
+        "temperature": 0.0,
+        "extra_params": {},
+        "api_calls": 38
+      },
+      "simulator": null
+    }
+  ]
+}

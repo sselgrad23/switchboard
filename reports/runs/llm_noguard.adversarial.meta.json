@@ -1,0 +1,21 @@
+{
+  "name": "llm_noguard.adversarial",
+  "backfilled": true,
+  "note": "Run on 2026-09-23/24 before run metadata was recorded; model and revision reconstructed from the local cache.",
+  "sessions": [
+    {
+      "started_utc": "2026-09-24",
+      "status": "complete",
+      "model": {
+        "provider": "local",
+        "model_requested": "Qwen/Qwen2.5-3B-Instruct",
+        "load_4bit": false,
+        "dtype": "float16",
+        "hf_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "torch": "2.5.1+cu121",
+        "transformers": "4.54.1",
+        "gpu": "NVIDIA GeForce RTX 2080 Super with Max-Q Design"
+      }
+    }
+  ]
+}

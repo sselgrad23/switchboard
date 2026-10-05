@@ -1,0 +1,40 @@
+{
+  "name": "qwen7b",
+  "options": {
+    "agent": "llm",
+    "backend": "qwen-local",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "retriever": "dense"
+  },
+  "agent_config": {
+    "agent": "llm",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "guardrails": true,
+    "exposure": "all",
+    "retriever": "dense",
+    "prompt": "base",
+    "force_action": false
+  },
+  "sessions": [
+    {
+      "started_utc": "2026-09-25T03:48:58+00:00",
+      "code_sha256_16": "5e6a24beb8a37d3c",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "complete",
+      "finished_utc": "2026-09-25T04:02:04+00:00",
+      "model": {
+        "provider": "local",
+        "model_requested": "Qwen/Qwen2.5-7B-Instruct",
+        "load_4bit": true,
+        "dtype": "bitsandbytes nf4, fp16 compute",
+        "hf_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "torch": "2.5.1+cu121",
+        "transformers": "4.54.1",
+        "gpu": "NVIDIA GeForce RTX 2080 Super with Max-Q Design",
+        "note": "dtype corrected on 2026-09-25: the recorder wrote float16 for 4-bit runs; load_4bit=true and QwenChat loads NF4 with fp16 compute."
+      },
+      "simulator": null
+    }
+  ]
+}

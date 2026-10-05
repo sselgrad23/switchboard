@@ -1,0 +1,40 @@
+{
+  "name": "m3b-fewshot",
+  "options": {
+    "agent": "llm",
+    "backend": "mistral",
+    "model": "ministral-3b-2512",
+    "prompt": "fewshot",
+    "retriever": "dense"
+  },
+  "agent_config": {
+    "agent": "llm",
+    "model": "ministral-3b-2512",
+    "guardrails": true,
+    "exposure": "all",
+    "retriever": "dense",
+    "prompt": "fewshot",
+    "force_action": false
+  },
+  "sessions": [
+    {
+      "started_utc": "2026-09-24T18:14:06+00:00",
+      "code_sha256_16": "1574349373663b7a",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "complete",
+      "finished_utc": "2026-09-24T18:15:28+00:00",
+      "model": {
+        "provider": "mistral",
+        "model_requested": "ministral-3b-2512",
+        "models_served": [
+          "ministral-3b-2512"
+        ],
+        "temperature": 0.0,
+        "extra_params": {},
+        "api_calls": 180
+      },
+      "simulator": null
+    }
+  ]
+}

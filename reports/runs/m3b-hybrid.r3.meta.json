@@ -1,0 +1,37 @@
+{
+  "name": "m3b-hybrid.r3",
+  "options": {
+    "agent": "hybrid",
+    "backend": "mistral",
+    "model": "ministral-3b-2512",
+    "retriever": "dense"
+  },
+  "agent_config": {
+    "agent": "hybrid",
+    "model": "ministral-3b-2512",
+    "guardrails": true,
+    "exposure": "all",
+    "retriever": "dense"
+  },
+  "sessions": [
+    {
+      "started_utc": "2026-09-25T04:51:15+00:00",
+      "code_sha256_16": "dbeb7dc315b57a4d",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "complete",
+      "finished_utc": "2026-09-25T04:51:49+00:00",
+      "model": {
+        "provider": "mistral",
+        "model_requested": "ministral-3b-2512",
+        "models_served": [
+          "ministral-3b-2512"
+        ],
+        "temperature": 0.0,
+        "extra_params": {},
+        "api_calls": 79
+      },
+      "simulator": null
+    }
+  ]
+}

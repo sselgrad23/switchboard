@@ -1,0 +1,51 @@
+{
+  "name": "m14b-multiturn.r2",
+  "options": {
+    "agent": "llm",
+    "backend": "mistral",
+    "model": "ministral-14b-2512",
+    "multiturn": true,
+    "sim_backend": "mistral",
+    "sim_model": "ministral-14b-2512",
+    "retriever": "dense"
+  },
+  "agent_config": {
+    "agent": "llm",
+    "model": "ministral-14b-2512",
+    "guardrails": true,
+    "exposure": "all",
+    "retriever": "dense",
+    "prompt": "base",
+    "force_action": false
+  },
+  "sessions": [
+    {
+      "started_utc": "2026-09-25T04:26:45+00:00",
+      "code_sha256_16": "ce68632bd8d65f26",
+      "python": "3.12.7",
+      "today_in_world": "2026-09-14",
+      "status": "complete",
+      "finished_utc": "2026-09-25T04:50:06+00:00",
+      "model": {
+        "provider": "mistral",
+        "model_requested": "ministral-14b-2512",
+        "models_served": [
+          "ministral-14b-2512"
+        ],
+        "temperature": 0.0,
+        "extra_params": {},
+        "api_calls": 281
+      },
+      "simulator": {
+        "provider": "mistral",
+        "model_requested": "ministral-14b-2512",
+        "models_served": [
+          "ministral-14b-2512"
+        ],
+        "temperature": 0.0,
+        "extra_params": {},
+        "api_calls": 155
+      }
+    }
+  ]
+}
